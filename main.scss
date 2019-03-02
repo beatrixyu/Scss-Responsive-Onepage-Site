@@ -1,0 +1,87 @@
+body {
+  width: 100%;
+  header {
+    margin: auto;
+  }
+  main {
+    width: 100%;
+    margin: 0 auto;
+    height: 350px;
+    text-shadow: 2px 2px 2px black;
+
+    figure {
+      position: absolute;
+      height: 60%;
+      /* to hide the overflow part from the picture */
+      overflow: hidden;
+      z-index: -1;
+
+      .mainPic {
+        text-shadow: 3px 2px 2px black;
+        height: 100vh;
+        width: auto;
+      }
+    }
+  }
+  section {
+    i {
+      font-size: 40px;
+    }
+  }
+  .mainPart {
+    img {
+      height: 400px;
+    }
+    p {
+      width: 60%;
+    }
+    .text {
+      height: 200px;
+    }
+    h1 {
+      margin-top: 50px;
+    }
+  }
+  .signUpBottom {
+    background-image: url(/img/main.jpg);
+    height: 300px;
+    text-shadow: 3px 2px 2px black;
+    h1 {
+      margin: 5% auto;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .iconPart {
+      top: 100px;
+      z-index: 2;
+    }
+    .mainPart {
+      top: 100px;
+      img {
+        height: 300px;
+      }
+    }
+    .mainText-1 {
+      position: relative;
+      z-index: 1;
+      margin-top: 70%;
+    }
+    .mainPic-1,
+    .mainPic-3 {
+      position: absolute;
+    }
+    .mainText-2 {
+      height: 400px;
+    }
+    .mainText-3 {
+      position: absolute;
+      margin-top: 80%;
+      height: 400px;
+    }
+    .peopleSay {
+      top: 100px;
+      margin-top: 100%;
+      margin-bottom: 30%;
+    }
+  }
+}

@@ -1,0 +1,83 @@
+body {
+  width: 100%;
+}
+body header {
+  margin: auto;
+}
+body main {
+  width: 100%;
+  margin: 0 auto;
+  height: 350px;
+  text-shadow: 2px 2px 2px black;
+}
+body main figure {
+  position: absolute;
+  height: 60%;
+  /* to hide the overflow part from the picture */
+  overflow: hidden;
+  z-index: -1;
+}
+body main figure .mainPic {
+  text-shadow: 3px 2px 2px black;
+  height: 100vh;
+  width: auto;
+}
+body section i {
+  font-size: 40px;
+}
+body .mainPart img {
+  height: 400px;
+}
+body .mainPart p {
+  width: 60%;
+}
+body .mainPart .text {
+  height: 200px;
+}
+body .mainPart h1 {
+  margin-top: 50px;
+}
+body .signUpBottom {
+  background-image: url(/img/main.jpg);
+  height: 300px;
+  text-shadow: 3px 2px 2px black;
+}
+body .signUpBottom h1 {
+  margin: 5% auto;
+}
+@media screen and (max-width: 768px) {
+  body .iconPart {
+    top: 100px;
+    z-index: 2;
+  }
+  body .mainPart {
+    top: 100px;
+  }
+  body .mainPart img {
+    height: 300px;
+  }
+  body .mainText-1 {
+    position: relative;
+    z-index: 1;
+    margin-top: 70%;
+  }
+  body .mainPic-1,
+body .mainPic-3 {
+    position: absolute;
+  }
+  body .mainText-2 {
+    height: 400px;
+  }
+  body .mainText-3 {
+    position: absolute;
+    margin-top: 80%;
+    height: 400px;
+  }
+  body .peopleSay {
+    top: 100px;
+    margin-top: 100%;
+    margin-bottom: 30%;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
